@@ -1,10 +1,10 @@
-🚀 Projet VPN Itinérant 🔒
+# 🚀 Projet VPN Itinérant 🔒
 
 📝 Description
 
 Ce projet vise à mettre en place un VPN itinérant permettant à un utilisateur distant d'accéder à ses fichiers à distance en toute sécurité. Le VPN repose sur WireGuard et fonctionne sur une machine virtuelle Debian 11.
 
-🎯 Objectifs
+# 🎯 Objectifs
 
 🔐 Permettre une connexion sécurisée entre un utilisateur distant et son réseau
 
@@ -12,7 +12,7 @@ Ce projet vise à mettre en place un VPN itinérant permettant à un utilisateur
 
 ⚡ Mettre en place un système simple et efficace de connexion VPN
 
-✅ Prérequis
+# ✅ Prérequis
 
 Pour déployer ce projet, il est nécessaire d'avoir :
 
@@ -22,7 +22,7 @@ Pour déployer ce projet, il est nécessaire d'avoir :
 
 🌐 Une connexion internet stable
 
-📌 Déroulement du Projet
+# 📌 Déroulement du Projet
 
 🏗️ Installation et Configuration
 
@@ -36,6 +36,6 @@ Le routage des paquets entre les différents réseaux est activé afin de permet
 
 Une configuration est également requise du côté des utilisateurs distants. Chaque client WireGuard doit disposer des informations de connexion du serveur ainsi que de sa propre clé de chiffrement.
 
-✅ Tests et Validation
+# ✅ Tests et Validation
 
 Une fois le VPN configuré, des tests de connexion et de transfert de fichiers sont effectués pour vérifier la stabilité et la sécurité du système. Des comparaisons avec d'autres solutions comme OpenVPN peuvent être réalisées pour mesurer les performances.
